@@ -10,7 +10,7 @@ def test_sub():
         assert sub(10,3) == 7
         
 def test_mul():
-        assert mul(2,3) == 6
+        assert mull(2,3) == 6
         assert mul(5,5) == 25
         assert mul(10,3) == 30
 
