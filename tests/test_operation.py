@@ -1,4 +1,4 @@
-from src.math_operations import add, sub
+from src.math_operations import add, sub , mul , div
 
 def test_add():
     assert add(2,3) == 5
@@ -15,5 +15,5 @@ def test_mul():
         assert mul(10,3) == 30
 
 def test_div():
-    assert add(3,3) == 1
-    assert add(10,5) == 2
+    assert div(3,3) == 1
+    assert div(10,5) == 2
